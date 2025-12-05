@@ -1708,9 +1708,7 @@ PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, WHIRLWIND
-	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 21, MIRROR_MOVE
 	db 0
 
 StarmieEvosMoves:
