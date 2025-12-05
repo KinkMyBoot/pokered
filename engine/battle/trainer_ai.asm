@@ -424,7 +424,7 @@ BrunoAI:
 	jp AIUseXDefend
 
 AgathaAI:
-	cp 8 percent
+	cp 0
 	jp c, AISwitchIfEnoughMons
 	cp 50 percent + 1
 	ret nc
