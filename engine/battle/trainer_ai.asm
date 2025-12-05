@@ -426,7 +426,7 @@ BrunoAI:
 AgathaAI:
 	cp 0
 	jp c, AISwitchIfEnoughMons
-	cp 50 percent + 1
+	cp 100 percent
 	ret nc
 	ld a, 2
 	call AICheckIfHPBelowFraction
