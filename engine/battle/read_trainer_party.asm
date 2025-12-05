@@ -126,7 +126,7 @@ ReadTrainer:
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a, WHIRLWIND
+	ld a, MIRROR_MOVE
 	ld [wEnemyMon1Moves + 1], a
 
 ; starter
