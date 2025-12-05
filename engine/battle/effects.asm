@@ -220,7 +220,7 @@ FreezeBurnParalyzeEffect:
 .regular_effectiveness
 	push af
 	call BattleRandom ; get random 8bit value for probability test
-	cp b
+	cp 0
 	pop bc
 	ret nc ; do nothing if random value is >= 1A or 4D [no status applied]
 	ld a, b ; what type of effect is this?
