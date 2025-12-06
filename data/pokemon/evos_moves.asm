@@ -564,7 +564,7 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, RAGE
+	db 25, SLAM
 	db 0
 
 FearowEvosMoves:
