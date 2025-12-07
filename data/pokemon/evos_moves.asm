@@ -1714,6 +1714,9 @@ PidgeotEvosMoves:
 	db 31, WING_ATTACK
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
+	db 55, THUNDER
+	db 56, THUNDER_WAVE
+	db 57, THUNDERSHOCK
 	db 0
 
 StarmieEvosMoves:
