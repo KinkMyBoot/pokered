@@ -1708,13 +1708,9 @@ PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
-	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
-	db 31, WING_ATTACK
 	db 44, AGILITY
 	db 54, MIRROR_MOVE
-	db 55, NO_MOVE
 	db 0
 
 StarmieEvosMoves:
