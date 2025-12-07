@@ -127,7 +127,10 @@ ReadTrainer:
 
 ; pidgeot
 	ld a, MIRROR_MOVE
+	ld [wEnemyMon1Moves], a
 	ld [wEnemyMon1Moves + 1], a
+	ld [wEnemyMon1Moves + 2], a
+	ld [wEnemyMon1Moves + 3], a
 
 ; starter
 	ld a, [wRivalStarter]
